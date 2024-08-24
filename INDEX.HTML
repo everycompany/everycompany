@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EyeCandy Style Video Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>EYECANDY</h1>
+        <div class="tags">
+            <a href="#">AERIAL</a>
+            <a href="#">ANIMATION</a>
+            <a href="#">ARC</a>
+            <a href="#">CINEMAGRAPH</a>
+            <a href="#">DOLLY ZOOM</a>
+            <!-- Add more tags as needed -->
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <div class="search-container">
+        <input type="text" placeholder="Search 'title card'" id="search-input">
+        <select id="filter">
+            <option value="popular">Most popular</option>
+            <option value="newest">Newest</option>
+            <!-- Add more filters as needed -->
+        </select>
+    </div>
+
+    <!-- Video Gallery Section -->
+    <section id="video-gallery" class="video-gallery">
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/your-video-id-1/preview" allow="autoplay" muted></iframe>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/your-video-id-2/preview" allow="autoplay" muted></iframe>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/your-video-id-3/preview" allow="autoplay" muted></iframe>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/your-video-id-4/preview" allow="autoplay" muted></iframe>
+        </div>
+        <!-- Add more video items as needed -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
