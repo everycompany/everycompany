@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ff4081;
+    margin: 10px 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tags a {
+    color: #fff;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tags a:hover {
+    color: #ff4081;
+}
+
+/* Search Section */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ff4081;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    margin-right: 10px;
+}
+
+#filter {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ff4081;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+}
+
+/* Video Gallery */
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #000;
+}
+
+.video-item {
+    width: 30%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .video-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .video-item {
+        width: 100%;
+    }
+}
